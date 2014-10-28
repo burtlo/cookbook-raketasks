@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = Cookbook::Raketasks::VERSION
   spec.authors       = ["Franklin Webber"]
   spec.email         = ["franklin.webber@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
+  spec.summary       = %q{Common Rake Tasks for Chef Cookbooks}
+  spec.description   = %q{Chef Cookbooks often times share common tasks for checking the style or correctness. This gem provides common tasks to save cookbook maintainers the hassle of having to copy and paste existing Rake tasks into a new cookbook. }
+  spec.homepage      = "https://github.com/burtlo/cookbook-raketasks"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
