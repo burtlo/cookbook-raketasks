@@ -44,6 +44,7 @@ This should give you the following tasks:
 rake style                    # Run all style checks
 rake style:chef               # Lint Chef cookbooks
 rake style:ruby               # Run Ruby style checks (Rubocop)
+rake style:ruby:auto_correct  # Auto-correct RuboCop offenses
 ```
 
 ### Testing (Spec) Tasks
@@ -56,6 +57,14 @@ If you want to add the spec tasks to your cookbook:
 
 ```
 require 'cookbook/raketasks/spec'
+```
+
+The should give you the following tasks:
+
+```
+rake spec                     # Run all specs
+rake spec:integration         # Run Test Kitchen with Vagrant
+rake spec:unit                # Run ChefSpec examples
 ```
 
 ### All Rake Tasks
