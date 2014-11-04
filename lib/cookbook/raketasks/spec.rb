@@ -7,7 +7,7 @@ module Cookbook
     extend Rake::DSL
 
     desc "Run all specs"
-    task spec: [ 'spec:chefspec', 'spec:kitchen' ]
+    task spec: [ 'spec:unit', 'spec:integration' ]
 
     desc "Run ChefSpec examples"
     RSpec::Core::RakeTask.new("spec:unit")
