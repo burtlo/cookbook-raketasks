@@ -26,4 +26,5 @@ Gem::Specification.new do |spec|
   spec.add_dependency "rubocop"
   spec.add_dependency "test-kitchen"
   spec.add_dependency "kitchen-vagrant"
+  spec.add_dependency "bump"
 end
